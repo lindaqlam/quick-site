@@ -2,10 +2,25 @@ html, body {
     height: 100%;
 }
 
+h1 {
+    padding-left: 20px;
+}
+
+span {
+    color: #63b7af;
+}
+
 .jumbotron {
     background-color: #fff;
 }
 
-.buttons {
-    
+img {
+    width: 200px;
+    float: left;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
