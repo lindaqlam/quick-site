@@ -2,9 +2,10 @@ html, body {
     height: 100%;
 }
 
-h1 {
-    padding-left: 40px;
-}
+/* h1 {
+    padding-left: 0px;
+    margin-left: 0px;
+} */
 
 span {
     color: #63b7af;
@@ -15,15 +16,15 @@ span {
 }
 
 img {
-    width: 200px;
+    width: 200px; /* 350 for small screens */
     float: left;
 }
 
-.main {
+/* .row {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .buttons {
     display: block;
@@ -34,3 +35,11 @@ img {
 .btn {
     margin-left: 10px
 }
+
+
+/* @media (max-width: 576px) {
+    img {
+        width: 300px;
+        float: left;
+    }
+} */
