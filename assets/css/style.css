@@ -27,7 +27,9 @@ img {
 } */
 
 .buttons {
-    display: block;
+    /* display: block; */
+    display: flex;
+    align-items: center;
     padding-top: 5px;
     text-align: center;
 }
@@ -43,3 +45,12 @@ img {
         float: left;
     }
 } */
+
+
+@media (max-width: 408px) {
+    .btn {
+        width: 100%;
+        display: block;
+        margin-bottom: 2px;
+    }
+}
