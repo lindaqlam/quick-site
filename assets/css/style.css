@@ -27,9 +27,8 @@ img {
 } */
 
 .buttons {
-    /* display: block; */
-    display: flex;
     align-items: center;
+    align-content: center;
     padding-top: 5px;
     text-align: center;
 }
@@ -49,6 +48,8 @@ img {
 
 @media (max-width: 408px) {
     .btn {
+        align-items: center;
+        align-content: center;
         width: 100%;
         display: block;
         margin-bottom: 2px;
