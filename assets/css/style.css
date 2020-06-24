@@ -44,6 +44,10 @@ img {
 	margin-left: 10px;
 }
 
+.btn-end {
+	margin-right: 10px;
+}
+
 @media (max-width: 576px) {
 	img {
 		width: 300px;
