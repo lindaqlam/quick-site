@@ -1,57 +1,67 @@
-html, body {
-    height: 100%;
+html,
+body {
+	height: 100%;
 }
 
-/* h1 {
-    padding-left: 0px;
-    margin-left: 0px;
-} */
-
 span {
-    color: #63b7af;
+	color: #63b7af;
 }
 
 .jumbotron {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 img {
-    width: 200px; /* 350 for small screens */
-    float: left;
+	width: 200px; /* 350 for small screens */
+	float: left;
+	align-self: center;
+	flex-shrink: 0;
 }
 
-/* .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+.test {
+	display: -webkit-flex;
+	display: flex;
+	align-items: flex-start;
+	align-self: center;
+}
+
+.row {
+	display: flex;
+	-webkit-align-items: center;
+	align-items: flex-start;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
 
 .buttons {
-    align-items: center;
-    align-content: center;
-    padding-top: 5px;
-    text-align: center;
+	align-items: center;
+	align-content: center;
+	padding-top: 5px;
+	text-align: center;
 }
 
 .btn {
-    margin-left: 10px
+	margin-left: 10px;
 }
 
-
-/* @media (max-width: 576px) {
-    img {
-        width: 300px;
-        float: left;
-    }
-} */
-
+@media (max-width: 576px) {
+	img {
+		width: 300px;
+	}
+}
 
 @media (max-width: 408px) {
-    .btn {
-        align-items: center;
-        align-content: center;
-        width: 100%;
-        display: block;
-        margin-bottom: 2px;
-    }
+	.btn {
+		align-items: center;
+		align-content: center;
+		width: 100%;
+		display: block;
+		margin-bottom: 2px;
+	}
+}
+
+@media (max-width: 767px) {
+	h1 {
+		text-align: center;
+	}
 }
